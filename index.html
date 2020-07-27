@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <title>Digital Mirror</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="mirror-frame">
+            <div class="inner-content">
+                <h1 class="header"></h1>
+                <div class="result-picture">
+                    <img src="" onerror="this.onerror=null; this.src='Default.jpg'" alt="fairest person" class="result">
+                </div>
+                <button onclick="handleReset()" id="reset-btn">Reset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
