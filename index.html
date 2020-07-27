@@ -14,9 +14,13 @@
             <div class="inner-content">
                 <h1 class="header"></h1>
                 <div class="result-picture">
-                    <img src="" onerror="this.onerror=null; this.src='Default.jpg'" alt="fairest person" class="result">
+                    <img src="/" alt="fairest person" class="result">
                 </div>
                 <button onclick="handleReset()" id="reset-btn">Reset</button>
+                <button onclick="showVideo()" id="video">Show Video</button>
+            </div>
+            <div class="video-container">
+                <video id="first-video" playsinline autoplay controls></video>
             </div>
         </div>
     </div>
