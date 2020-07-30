@@ -74,3 +74,41 @@
 .video-btn-container {
     margin: 0 auto;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 1.5rem;
+        margin-top: 5rem;
+    }
+
+    .result {
+        width: 80%;
+    }
+    video{
+        width: 80%;
+    }
+    #reset-btn, #video {
+        margin-top: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .header {
+        margin-top: 4rem;
+    }
+
+    #reset-btn, #video {
+        margin-top: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .header {
+        margin-top: 4rem;
+    }
+
+    #reset-btn, #video {
+        margin-top: 4rem;
+    }
+  }
